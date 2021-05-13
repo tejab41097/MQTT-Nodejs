@@ -1,0 +1,7 @@
+Step 1: Please create your own MONGO DB server & MQTT Server.
+Step 1: Open Both Project in VS code in different windows.
+Step 2: Run npm i on both cmd in VS code.
+Step 3: Run Both Projects using npm start.
+Step 4: Hit Post api on locahost:3000 which will create one more entry & also send id to MQTT Queue
+Step 5: observe CMD Output for MQTT Subscriber.
+Step 6: if same id which was added in database you can see cmd output of MQTT Subscriber program is running fine.

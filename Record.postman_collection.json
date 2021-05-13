@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "49d238c2-b869-4f45-8147-3a6636a8536c",
+		"name": "Record",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post New Record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"author_name\": \"Alfiya Afroz\",\r\n    \"book_title\":\"My Fourth Book\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Record By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/609d65f2e17129094857d17c",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"609d65f2e17129094857d17c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
